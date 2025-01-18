@@ -1,0 +1,1 @@
+This error occurs when using `performSelector:withObject:afterDelay:` or similar methods in Objective-C. If the object whose selector is being performed is deallocated before the delay expires, a crash will occur.  The exact error message may vary, but it will typically involve an exception related to sending a message to a deallocated object.
